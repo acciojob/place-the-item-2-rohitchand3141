@@ -1,2 +1,26 @@
-
-/* Your CSS Code here. */
+.flex{
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:space-around;
+}
+.holder{
+	display:flex;
+/* 	padding:200px; */
+	flex-flow:row wrap;
+}
+.r{
+	background-color:red;
+	padding-right:50px;
+	padding-bottom:50px;
+	
+}
+.g{
+	background-color:green;
+	padding-right:50px;
+	padding-bottom:50px;
+}
+.b{
+	background-color:blue;
+	padding-right:50px;
+	padding-bottom:50px;
+}
